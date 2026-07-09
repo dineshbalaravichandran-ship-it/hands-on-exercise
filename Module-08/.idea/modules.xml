@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/5.microservices/account/account.iml" filepath="$PROJECT_DIR$/5.microservices/account/account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.microservices-demo/account-service/account-service.iml" filepath="$PROJECT_DIR$/4.microservices-demo/account-service/account-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.microservices-exercises/ex3-api-gateway/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/3.microservices-exercises/ex3-api-gateway/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.microservices/api-gateway/api-gateway2.iml" filepath="$PROJECT_DIR$/5.microservices/api-gateway/api-gateway2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.microservices-demo/api-gateway/api-gateway3.iml" filepath="$PROJECT_DIR$/4.microservices-demo/api-gateway/api-gateway3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.microservices-exercises/ex3-api-gateway/billing-service/billing-service.iml" filepath="$PROJECT_DIR$/3.microservices-exercises/ex3-api-gateway/billing-service/billing-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.microservices-exercises/ex2-inventory-discovery/config-server/config-server.iml" filepath="$PROJECT_DIR$/3.microservices-exercises/ex2-inventory-discovery/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.microservices-exercises/ex3-api-gateway/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/3.microservices-exercises/ex3-api-gateway/customer-service/customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.microservices-demo/eureka-discovery-server/eureka-discovery-server.iml" filepath="$PROJECT_DIR$/4.microservices-demo/eureka-discovery-server/eureka-discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.microservices/eureka-discovery-server/eureka-discovery-server2.iml" filepath="$PROJECT_DIR$/5.microservices/eureka-discovery-server/eureka-discovery-server2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.microservices-exercises/ex2-inventory-discovery/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/3.microservices-exercises/ex2-inventory-discovery/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.microservices-exercises/ex4-payment-circuitbreaker/ex4-payment-circuitbreaker.iml" filepath="$PROJECT_DIR$/3.microservices-exercises/ex4-payment-circuitbreaker/ex4-payment-circuitbreaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.microservices-demo/greet-service/greet-service.iml" filepath="$PROJECT_DIR$/4.microservices-demo/greet-service/greet-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.microservices/greet-service/greet-service2.iml" filepath="$PROJECT_DIR$/5.microservices/greet-service/greet-service2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.microservices-exercises/ex2-inventory-discovery/inventory-service/inventory-service.iml" filepath="$PROJECT_DIR$/3.microservices-exercises/ex2-inventory-discovery/inventory-service/inventory-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.microservices/loan/loan.iml" filepath="$PROJECT_DIR$/5.microservices/loan/loan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.microservices-demo/loan-service/loan-service.iml" filepath="$PROJECT_DIR$/4.microservices-demo/loan-service/loan-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.microservices-lb-exercises/exercise1-edge-service-routing-filtering/src/main/main.iml" filepath="$PROJECT_DIR$/1.microservices-lb-exercises/exercise1-edge-service-routing-filtering/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.auth-sso-exercises/exercise1-centralized-auth-oauth2-oidc/src/main/main2.iml" filepath="$PROJECT_DIR$/2.auth-sso-exercises/exercise1-centralized-auth-oauth2-oidc/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.auth-sso-exercises/exercise2-authorization-and-resource-server/authorization-server/src/main/main3.iml" filepath="$PROJECT_DIR$/2.auth-sso-exercises/exercise2-authorization-and-resource-server/authorization-server/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.microservices-lb-exercises/exercise2-load-balancing-gateway/src/main/main4.iml" filepath="$PROJECT_DIR$/1.microservices-lb-exercises/exercise2-load-balancing-gateway/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.auth-sso-exercises/exercise3-jwt-secure-communication/src/main/main5.iml" filepath="$PROJECT_DIR$/2.auth-sso-exercises/exercise3-jwt-secure-communication/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.microservices-lb-exercises/exercise3-resilience-patterns-gateway/src/main/main6.iml" filepath="$PROJECT_DIR$/1.microservices-lb-exercises/exercise3-resilience-patterns-gateway/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.auth-sso-exercises/exercise2-authorization-and-resource-server/resource-server/src/main/main7.iml" filepath="$PROJECT_DIR$/2.auth-sso-exercises/exercise2-authorization-and-resource-server/resource-server/src/main/main7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.microservices-exercises/ex1-user-order/order-service/order-service.iml" filepath="$PROJECT_DIR$/3.microservices-exercises/ex1-user-order/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.microservices-exercises/ex2-inventory-discovery/product-service/product-service.iml" filepath="$PROJECT_DIR$/3.microservices-exercises/ex2-inventory-discovery/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.auth-sso-exercises/exercise2-authorization-and-resource-server/resource-server/src/test/test.iml" filepath="$PROJECT_DIR$/2.auth-sso-exercises/exercise2-authorization-and-resource-server/resource-server/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.microservices-lb-exercises/exercise2-load-balancing-gateway/src/test/test2.iml" filepath="$PROJECT_DIR$/1.microservices-lb-exercises/exercise2-load-balancing-gateway/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.auth-sso-exercises/exercise2-authorization-and-resource-server/authorization-server/src/test/test3.iml" filepath="$PROJECT_DIR$/2.auth-sso-exercises/exercise2-authorization-and-resource-server/authorization-server/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.microservices-lb-exercises/exercise3-resilience-patterns-gateway/src/test/test4.iml" filepath="$PROJECT_DIR$/1.microservices-lb-exercises/exercise3-resilience-patterns-gateway/src/test/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.microservices-lb-exercises/exercise1-edge-service-routing-filtering/src/test/test5.iml" filepath="$PROJECT_DIR$/1.microservices-lb-exercises/exercise1-edge-service-routing-filtering/src/test/test5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.auth-sso-exercises/exercise3-jwt-secure-communication/src/test/test6.iml" filepath="$PROJECT_DIR$/2.auth-sso-exercises/exercise3-jwt-secure-communication/src/test/test6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.auth-sso-exercises/exercise1-centralized-auth-oauth2-oidc/src/test/test7.iml" filepath="$PROJECT_DIR$/2.auth-sso-exercises/exercise1-centralized-auth-oauth2-oidc/src/test/test7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.microservices-exercises/ex1-user-order/user-service/user-service.iml" filepath="$PROJECT_DIR$/3.microservices-exercises/ex1-user-order/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>
