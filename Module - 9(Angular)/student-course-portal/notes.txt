@@ -1,0 +1,29 @@
+Hands-On 1, Task 1, Step 2 — one-line purpose of each generated file
+----------------------------------------------------------------------
+angular.json          Workspace-level config: build targets, file paths, budgets, styles/scripts
+                       arrays, and per-project architect options (build/serve/test).
+tsconfig.json          Base TypeScript compiler config shared by the app and spec configs
+                       (strict mode, target ES version, Angular compiler options).
+tsconfig.app.json      Extends tsconfig.json for the app build specifically; points at
+                       src/main.ts as the sole entry file and excludes spec files.
+package.json           npm manifest: project name/scripts (start/build/test) and the exact
+                       Angular, RxJS, NgRx and dev-tooling dependency versions.
+src/main.ts            Application entry point; calls bootstrapApplication(AppComponent,
+                       appConfig) to start the standalone app (replaces platformBrowserDynamic
+                       + AppModule from the NgModule era).
+src/app/app.config.ts  Standalone-mode equivalent of app.module.ts: registers global providers
+                       — router, HttpClient + interceptors, NgRx store/effects/devtools.
+src/app/app.component.ts
+                       Root component; hosts <app-header> and <router-outlet>, and the global
+                       loading spinner bound to LoadingService.
+src/index.html          The single HTML shell page; contains <app-root></app-root>, the mount
+                       point Angular bootstraps into.
+
+Step 5 — angular.json production budgets
+----------------------------------------------------------------------
+Under architect > build > configurations > production > budgets:
+  { type: "initial", maximumWarning: "500kb", maximumError: "1mb" }
+  These control the *initial* JS bundle size (everything downloaded before lazy chunks).
+  A warning is logged past 500kb; the build FAILS past 1mb — a guardrail against bundle bloat.
+  { type: "anyComponentStyle", maximumWarning: "4kb", maximumError: "8kb" }
+  Same idea but per-component stylesheet, to catch any single .css file growing too large.

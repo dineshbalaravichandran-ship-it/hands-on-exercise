@@ -1,0 +1,17 @@
+<div *ngIf="course; else notFound">
+  <h2>{{ course.name }}</h2>
+  <p>Code: {{ course.code }}</p>
+  <p>Credits: {{ course.credits }}</p>
+  <p>Status: {{ course.gradeStatus }}</p>
+
+  <h3>Enrolled Students</h3>
+  <ul *ngIf="enrolledStudents.length; else noStudents">
+    <li *ngFor="let student of enrolledStudents">{{ student.name }}</li>
+  </ul>
+  <ng-template #noStudents>
+    <p>No students enrolled yet.</p>
+  </ng-template>
+</div>
+<ng-template #notFound>
+  <p>Course not found.</p>
+</ng-template>

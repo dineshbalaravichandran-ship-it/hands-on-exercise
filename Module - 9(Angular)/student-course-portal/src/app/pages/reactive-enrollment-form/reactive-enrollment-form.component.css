@@ -1,0 +1,9 @@
+form div {
+  margin-bottom: 12px;
+}
+
+form span {
+  display: block;
+  color: #e74c3c;
+  font-size: 12px;
+}
